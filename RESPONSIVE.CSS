@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+    .wrapper {
+        padding: 0 50px; /* Reduce padding on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 0 20px; /* Further reduce padding for smaller screens */
+    }
+}
