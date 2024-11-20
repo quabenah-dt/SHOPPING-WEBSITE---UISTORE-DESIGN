@@ -1,0 +1,33 @@
+:root {
+    /* Colors */
+
+    --Main: #E6C744;
+    --SECONDARY: #C2C8DA;
+    --BLACK: #000000;
+    --WHITE: #FFFFFF;
+
+
+    /* Fonts */
+
+    --FONT-PRIMARY: 'Poppins-Black';
+    --FONT-SECONDARY: 'Poppins-Medium';
+    --FONT-THIRD: 'Poppins-Regular';
+
+    /* Font Sizes */
+    --FONT-EXTRA-SMALL-22: 1.076rem;
+    --FONT-SMALL-24: 1.174rem;
+    --FONT-REGULAR-32: 1.566rem;
+    --FONT-MEDIUM-36: 1.763rem;
+    --FONT-LARGE-40: 1.957rem;
+    --FONT-EXTRA-LARGE-48: 2.349rem;
+    --FONT-BIGGER-55: 2.691rem;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins-Regular';
+}
+
