@@ -31,14 +31,19 @@
     font-family: 'Poppins-Regular';
 }
 
-nav {
-    padding-top: 2.251rem;
-    margin-left: 50px;
-    margin-right: 50px;
-    display: flex;
+.wrapper {
+    max-width: 1718px;
+    margin: 0 auto;
 }
 
-.logo {
+nav {
+    /* padding-top: 2.251rem;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .logo {
     display: flex;
     align-items: center;
 }
@@ -49,17 +54,51 @@ nav {
 }
 
 .logo-text {
-    margin-left: 0.636rem;
+    padding-left: 0.636rem;
     font-family: var(--FONT-PRIMARY);
     font-size: var(--FONT-LARGE-40);
 }
 
 ul {
-    padding-left: 31.412rem;
     display: flex;
     text-decoration: none;
     gap: 3.131rem;
     list-style: none;
+    align-items: center;
+    margin-left: 642px;
 }
+
+.sign-up {
+    margin-left: 13px;
+    width: 134px;
+    height: 62px;
+    background-color: var(--BLACK);
+    border: none;
+    border-radius: 0.625rem;
+    color: var(--WHITE);
+}
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
