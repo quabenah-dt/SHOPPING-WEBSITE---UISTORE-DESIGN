@@ -90,5 +90,17 @@ nav button {
 }
 
 
+.hero {
+    max-width: 1750px;
+    /* height: 852px; */
+    margin: 56px auto;
+    background-color: #e7e6e6;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
