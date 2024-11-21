@@ -77,6 +77,7 @@ nav a {
 
 
 .sign-up {
+    display: inline-block;
     padding: 15px 21px;;
     background-color: var(--BLACK);
     border: none;
@@ -92,61 +93,74 @@ nav a {
     max-width: 1720px;
     height: 852px;
     border: none;
-    border-radius: 59px;
+    border-radius: 59PX;
     background-color: #F4F6F5;
-    margin-top: 56px;
+    margin-top: 56PX;
     display: flex;
-    justify-content: space-between;
-    /* padding: 61px 81px; */
+    /* align-items: center; */
     /* gap: 175px; */
+    /* justify-content: space-between; */
 }
 
-.text-container {
-    margin-left: 82px;
+.text-container  {
+    margin-left: 119px;
     margin-top: 77px;
-    line-height: 120%;
-    letter-spacing: 0%;
 }
-
 
 .text p {
     font-family: var(--FONT-PRIMARY);
-    font-size: 96px;
-    line-height: 120px;
-    letter-spacing: 0;
+    font-size: 70PX;
 }
 
+.text1 p {
+    font-family: var(--FONT-THIRD);
+    font-size: 20px;
+    margin-top: 40px;
+}
 
+.text1 button {
+    margin-top: 32px;
+    width: 221px;
+    height: 82px;
+    font-family: var(--FONT-SECONDARY);
+    font-size: 30px;
+    background-color: var(--BLACK);
+    color: var(--WHITE);
+    border: none;
+    border-radius: 5px;
+}
 
+.let {
+    background-color: var(--WHITE);
+    height: 112.14px;
+    width: 464.74px;
+    position: relative;
+    left: -50px;
+    padding-left: 50px;
+    transform: rotate(-2deg);
+    /* display: flex; */
+    /* align-items: center; */
+    /* transform-origin: left center; */
+}
+
+.unique {
+    background-color: var(--Main);
+    height: 112.14px;
+    width: 464.74px;
+    position: relative;
+    left: -50px;
+    padding-left: 50px;
+    transform: rotate(-2deg);
+}
+
+.main-img {
+    align-self: flex-end;
+}
 
 .hero-img {
-    max-width: auto;
-    max-height: 100%;
-    margin-top: 7.7%;
-    /* margin-right: 81px; */
+    /* height: 680px; */
+    vertical-align: middle;
 }
-
-
-.brands {
-    max-width: 1920px;
-    height: 186px;
-    margin-top: 63px;
-    background-color: var(--Main);
-    padding: 61px;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
