@@ -42,7 +42,7 @@ nav {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    margin-top: 48px;
+    margin-top: 20px;
 }
 
 .logo {
@@ -87,19 +87,112 @@ nav button {
     background-color: var(--BLACK);
     color: white;
     font-size: var(--FONT-SMALL-24);
+    cursor: pointer;
 }
 
 
 .hero {
-    max-width: 1750px;
-    /* height: 852px; */
-    margin: 56px auto;
+    width: 100%;
+    height: 600px;
+    margin: 30px auto;
     background-color: #e7e6e6;
     border: none;
     border-radius: 50px;
     display: flex;
+    /* gap: 60px; */
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+}
+
+.text {
+    margin-left: 80px;
+    margin-top: 75px;
+}
+
+.text h1 {
+    font-size: 65px;
+    font-family: var(--FONT-PRIMARY);
+    line-height: 120%;
+}
+
+
+
+.highlight-white {
+    font-family: var(--FONT-PRIMARY);
+}
+
+.highlight-yellow{
+    font-family: var(--FONT-PRIMARY);
+}
+
+.highlight {
+    position: relative;
+    display: inline-block; 
+    z-index: 1; 
+    padding: 0 5px; 
+  }
+  
+  .highlight-white::before{
+    content: '';
+    position: absolute;
+    top: 50%; 
+    right: -70px;
+    width: 150%;
+    height: 90%;
+    transform: translateY(-50%) rotate(-2deg);
+    z-index: -1;
+  }
+  
+.highlight-yellow::before {
+    content: '';
+    position: absolute;
+    top: 39%; 
+    right: -35px;
+    width: 120%;
+    height: 90%;
+    transform: translateY(-50%) rotate(-2deg);
+    z-index: -1;
+  }
+  
+  .highlight-white::before {
+    background-color: var(--WHITE);
+  }
+  
+  .highlight-yellow::before {
+    background-color: var(--Main);
+  }
+
+.text p {
+   margin-top: 40px; 
+   font-size: 18px;
+   font-family: var(--FONT-THIRD);
+}
+
+.text button {
+    height: 55px;
+    width: 150px;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--BLACK);
+    color: white;
+    font-size: var(--FONT-SMALL-24);
+    margin-top: 32px;
+    cursor: pointer;
+}
+  
+
+
+.main-img {
+    align-self: flex-end;
+}
+
+
+
+.hero-img {
+    max-width: 600px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 100px; /* Brings image closer to the left side */
 }
 
 
