@@ -92,10 +92,11 @@ nav button {
 
 
 .hero {
+    position: relative;
     width: 100%;
     height: 600px;
-    margin: 30px auto;
-    background-color: #e7e6e6;
+    margin-top: 30px;
+    background-color: #F4F6F5;
     border: none;
     border-radius: 50px;
     display: flex;
@@ -146,7 +147,7 @@ nav button {
 .highlight-yellow::before {
     content: '';
     position: absolute;
-    top: 39%; 
+    top: 45%; 
     right: -35px;
     width: 120%;
     height: 90%;
@@ -192,8 +193,61 @@ nav button {
     max-width: 600px;
     height: auto;
     vertical-align: middle;
-    margin-right: 100px; /* Brings image closer to the left side */
+    margin-right: 50px; /* Brings image closer to the left side */
 }
 
 
+.stars {
+    position: relative;
+}
 
+.stars img {
+    position: absolute; /* Allows explicit placement within the .hero container */
+    width: 50px;
+    height: 48px;
+    /* background-color: #C2C8DA; */
+}
+
+.stars img:nth-child(1) {
+    top: 10%; /* Adjust the vertical position */
+    right: 200px; /* Adjust the horizontal position */
+}
+
+.stars img:nth-child(2) {
+    top: 9%;
+    right: 700px;
+}
+
+.stars img:nth-child(3) {
+    bottom: 4%;
+    right: 650px;
+}
+
+.stars img:nth-child(4) {
+    bottom: 15%;
+    right: 50px;
+}
+
+
+.brands {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    background-color: var(--Main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.arivals {
+    display: flex;
+    /* gap: 47px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arivals img {
+    width: 350px;
+}
