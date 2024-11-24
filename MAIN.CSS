@@ -36,7 +36,7 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 100px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 nav {
@@ -244,6 +244,10 @@ nav button {
     margin-top: 50px;
 }
 
+.brands img {
+    mix-blend-mode: multiply;
+}
+
 .arivals {
     margin-top: 50px;
     display: flex;
@@ -264,4 +268,36 @@ nav button {
     
     font-family: var(--FONT-PRIMARY);
     font-size: var(--FONT-LARGE-40);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-info p {
+    font-family: var(--FONT-THIRD);
+    font-size: 15px;
+    color: #7F7F7F;
+}
+
+.material-symbols-outlined {
+    color: #7F7F7F;
+}
+
+.banner {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.banner img {
+    height: 650px;
+    display: block;
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+    border: none; /* Removes any border that may cause a line */
 }
