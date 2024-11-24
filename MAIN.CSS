@@ -132,6 +132,7 @@ nav button {
     display: inline-block; 
     z-index: 1; 
     padding: 0 5px; 
+    font-family: var(--FONT-PRIMARY);
   }
   
   .highlight-white::before{
@@ -290,14 +291,79 @@ nav button {
     margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 0;
+    /* justify-content: center; */
+    /* width: 100vw; */
+    /* margin-left: 50%; */
+    /* margin-right: 50%; */
+    /* transform: translateX(-50%); */
 }
 
 .banner img {
-    height: 650px;
-    display: block;
-    margin: 0; /* Removes any default margin */
-    padding: 0; /* Removes any default padding */
-    border: none; /* Removes any border that may cause a line */
+    height: 700px;
+    /* display: block; */
+    margin: 0; 
+    padding: 0;
+    border: none; 
+    margin-left: -10px;
+}
+
+.banner-info {
+    position: absolute;
+    left: 50%;
+    /* margin-top: 100px; */
+}
+
+.banner-content {
+    padding-left: 100px;
+}
+
+.banner-info h1 {
+    font-size: 60px;
+    font-family: var(--FONT-PRIMARY);
+    line-height: 137.2%;
+}
+
+.highlight-white1::before{
+    content: '';
+    position: absolute;
+    top: 45%; 
+    right: -40px;
+    width: 120%;
+    height: 80%;
+    transform: translateY(-50%) rotate(-2deg);
+    z-index: -1;
+  }
+
+.highlight-white1::before {
+    background-color: var(--WHITE);
+  }
+
+.banner-text {
+    margin-top: 15px;
+    font-family: var(--FONT-THIRD);
+    font-size: 20px;
+    width: 400px;
+}
+
+.banner-dates {
+    margin-top: 30px;
+    font-family: var(--FONT-PRIMARY);
+    font-size: 20px;
+}
+
+.banner-terms {
+    font-size: 20px;
+    font-family: var(--FONT-THIRD);
+}
+
+.banner-content button {
+    height: 55px;
+    width: 150px;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--BLACK);
+    color: white;
+    font-size: var(--FONT-SMALL-24);
+    margin-top: 32px;
+    cursor: pointer;
 }
